@@ -1,0 +1,20 @@
+{
+  "name": "browserstack-test",
+  "version": "1.0.0",
+  "description": "browserstack-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserstack-node-sdk jest src/main.test.js",
+    "postinstall": "npm update browserstack-node-sdk"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserstack-node-sdk": "^1.36.2",
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7"
+  },
+  "dependencies": {
+    "selenium-webdriver": "4.1.2"
+  }
+}
