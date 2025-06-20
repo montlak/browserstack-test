@@ -41,13 +41,3 @@ describe("BStack test", () => {
   }, 1000000);
 
 });
-
-//await driver.wait(until.elementLocated(By.className("mw-logo-wordmark")), 10000);
-//await driver.wait(until.elementLocated(By.xpath('//*[@id="vector-main-menu-dropdown"]/input')), 10000);
-    //await driver.findElement(By.xpath('//*[@id="vector-main-menu-dropdown"]/input')).click();
-    //await driver.findElement(By.id('n-randompage')).click();
-    //await driver.wait(until.elementLocated(By.id('firstHeading')), 10000);
-    //await driver.wait(until.elementLocated(By.id('References')), 10000);
-    //await driver.wait(until.elementLocated(By.className('mw-logo-wordmark')), 10000);
-    //await driver.findElement(By.className('mw-logo-wordmark')).click();
-    //await driver.wait(until.titleMatches(/Wikipedia/i), 10000); 
